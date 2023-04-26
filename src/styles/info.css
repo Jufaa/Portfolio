@@ -1,0 +1,96 @@
+.cuadro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    border: 3px solid #000000;
+    padding: 20px;
+    border-radius: 5px;
+    background: rgb(216, 11, 55, 0.6);
+  }
+  .cuadro:hover {
+    background: linear-gradient(rgba(216, 11, 55, 0.6), rgba(255, 0, 0, 0.8));
+  }
+  
+  .cuadro:hover .text h2{
+    transform: scale(1.05);
+    transition: all 2s ease-in-out;
+  }
+  .cuadro:hover .text h3 {
+    transform: scale(1.02);
+    transition: all 3s ease-in-out;
+  }
+  
+  .pic {
+    width: 320%;
+    margin-right: 20px;
+  }
+  
+  .pic img {
+    width: 100%;
+    height: 450px;
+  }
+  
+  .cuadro .text h2 {
+    width: 50%;
+    font-size: 2rem;
+    color: white !important;
+    opacity: 1;
+  }
+  
+  .cuadro .text h3 {
+    color: white !important;
+    opacity: 0.8;
+  }
+  /* Estilos para pantallas grandes */
+@media screen and (max-width: 968px) {
+  .cuadro {
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  .pic {
+    width: 55%;
+    margin-bottom: 20px;
+  }
+  
+  .pic img {
+    height: auto;
+    max-height: 500px;
+  }
+  
+  .cuadro .text h2 {
+    font-size: 2.5rem;
+  }
+  
+  .cuadro .text h3 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 500px) {
+  .cuadro {
+    flex-direction: column;
+    width: 90%;
+  }
+  
+  .pic {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .pic img {
+    height: auto;
+    max-height: 250px;
+  }
+  
+  .cuadro .text h2 {
+    font-size: 1.5rem;
+  }
+  
+  .cuadro .text h3 {
+    font-size: 1rem;
+  }
+}

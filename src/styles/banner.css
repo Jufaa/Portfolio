@@ -1,0 +1,74 @@
+.container{
+
+    margin-top: 12rem;
+    margin-bottom: 5rem;
+    padding: 5rem;
+    margin-right: 50rem;
+    
+}
+.container .menos-gap{
+  margin-left: -6rem;
+}
+h1,h2,h3{
+    padding-bottom: 1rem;
+}
+
+p{
+    color: #ff2d75;
+}
+h1{
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 2rem;
+    opacity: 0.5;
+}
+
+h3{
+    opacity: 0.5;
+}
+
+.container .as{
+    color:#ff2d75;
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    background-color: rgba(255, 255, 255, 0.103);
+    border: none;
+    border-radius: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transform: scale(1);
+  transition: transform 0.2s ease-out;
+  margin-right: 1rem;
+    
+}
+
+.container .as:hover{
+    transform: scale(1.1);
+    color:#ff2d75
+}
+
+.container .keloke {
+    width: 50%;
+    float: right;
+    margin-right: -50rem !important;
+    transition: transform 0.3s ease-in-out;
+    margin-top: -5rem;
+  }
+  .container .keloke:hover {
+    transform: scale(1.1) rotate(5deg);
+    animation: rotate 1s ease-in-out;
+  }
+    
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

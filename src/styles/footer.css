@@ -1,0 +1,21 @@
+.foot{
+        width: 100%;
+        height: 80px;
+        max-width: auto;
+        margin-top: 5rem;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: rgb(216, 11, 55)
+}
+
+.foot p{
+        color: white;
+        text-align: center;
+}
+
+.foot .linkes{
+        width: 5%;
+        display: inline-flex;     
+}
