@@ -1,6 +1,10 @@
 import styled from 'styled-components'
+interface BurguerButtonProps {
+  clicked: boolean;
+  handleClick: () => void;
+}
 
-function BurguerButton(props) {
+function BurguerButton(props: BurguerButtonProps) {
   return (
     <Burguer>
       <div  onClick={props.handleClick} 

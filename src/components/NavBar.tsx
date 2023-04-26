@@ -3,7 +3,7 @@ import '../styles/navbar.css';
 import { useState, useEffect } from 'react';
 
 const NavBar = () => {
-  const [names, setNames] = useState(['Jufa-Developer', 'FullStack Developer']);
+  const [names] = useState(['Jufa-Developer', 'FullStack Developer']);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
