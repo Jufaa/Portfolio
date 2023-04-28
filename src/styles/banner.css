@@ -72,3 +72,40 @@ h3{
       transform: rotate(360deg);
     }
   }
+  /* Estilos para pantallas de celulares */
+@media only screen and (max-width: 768px) {
+  .container{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    margin-right: 0;
+  }
+  
+  .container .menos-gap{
+    margin-left: 0;
+  }
+  
+  h1{
+    font-size: 3rem;
+  }
+  
+  h2{
+    font-size: 1.5rem;
+    opacity: 1;
+  }
+  
+  h3{
+    opacity: 1;
+  }
+  
+  .container .as{
+    font-size: 1.2rem;
+  }
+  
+  .container .keloke {
+    width: 100%;
+    float: none;
+    margin-right: 0 !important;
+    margin-top: -3rem;
+  }
+}

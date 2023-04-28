@@ -26,7 +26,7 @@ const NavBar = () => {
           <a href='#'>{names[currentIndex]}</a>
         </div>
         <div>
-          <ul className={`links ${clicked ? 'active' : ''}`}>
+          <ul className="links">
             <li><a>Skills</a></li>
             <li><a>About Me</a></li>
             <li><a>Projects</a></li>
@@ -34,8 +34,17 @@ const NavBar = () => {
           </ul>
         </div>
         <div className='burger'>
-
           <BurguerButton clicked={clicked} handleClick={handleClick}/>
+          {
+            clicked ? 
+            <ul className="active">
+            <li><a>Skills</a></li>
+            <li><a>About Me</a></li>
+            <li><a>Projects</a></li>
+            <li><a>Contact</a></li>
+          </ul> :
+           null
+          }
         </div>
       </div>
     </>

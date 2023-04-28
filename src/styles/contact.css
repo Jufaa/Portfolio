@@ -82,3 +82,11 @@
     font-size:5rem;
     text-align: center;
 }
+
+@media only screen and (max-width: 768px) {
+  textarea {
+    width: 63%;
+    height: 30rem;
+    
+  }
+}

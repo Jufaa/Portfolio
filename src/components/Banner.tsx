@@ -3,8 +3,8 @@ const Banner = () => {
   return (
     <>
     <div className="container">
-    <p>Hola, me llamo</p>
     <img className="keloke" src='/about-image.svg'/>
+    <p>Hola, me llamo</p>
     <h1 className='menos-gap'>Juan Cruz Francitorra</h1>
     <h2>Construyo sitios web</h2>
     <h3>Soy un desarrolador web especializado en crear sitios webs awesomes!</h3>
