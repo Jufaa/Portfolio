@@ -4,7 +4,7 @@ const Info = () => {
   <>
   <div className="cuadro">
     <div className="pic">
-      <img src="/public/what.jpg"/>
+      <img src="/what.jpg"/>
     </div>
     <div className="text">
       <h2>Acerca de mi</h2>
