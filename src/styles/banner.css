@@ -84,7 +84,9 @@ h3{
   .container .menos-gap{
     margin-left: 0;
   }
-  
+  .container .as{
+    margin-top: 0.5rem;
+  }
   h1{
     font-size: 3rem;
   }
