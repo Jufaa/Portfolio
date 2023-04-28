@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <>
       <h1>My Skills</h1>
-      <div className="icons">
+      <div className="icons" id="skills">
         <div className="icon-wrapper">
           <img className="tamanio" src='icons/javascript.svg' />
           <h3>JavaScript</h3>

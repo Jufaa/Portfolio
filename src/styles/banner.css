@@ -72,7 +72,49 @@ h3{
       transform: rotate(360deg);
     }
   }
-  /* Estilos para pantallas de celulares */
+  
+  @media only screen and (max-width: 1200px) {
+    .container .keloke{
+      width: 70%;
+      float: none;
+      margin-right: 0 !important;
+      margin-top: -3rem;
+      margin-bottom: 2rem;
+      margin-left: 4rem;
+    }
+    .container{
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      padding: 5rem;
+      margin-right:9rem;
+      margin-left: 3rem;
+      
+    }
+    .container .menos-gap{
+      margin-left: 0;
+    }
+    .container .as{
+      margin-top: 0.5rem;
+    }
+    h1{
+      font-size: 3rem;
+    }
+    
+    h2{
+      font-size: 1.5rem;
+      opacity: 1;
+    }
+    
+    h3{
+      opacity: 1;
+    }
+    
+    .container .as{
+      font-size: 1.2rem;
+    }
+  
+  }
+
 @media only screen and (max-width: 768px) {
   .container{
     margin-top: 6rem;
@@ -105,9 +147,11 @@ h3{
   }
   
   .container .keloke {
-    width: 100%;
+    width: 70%;
     float: none;
     margin-right: 0 !important;
     margin-top: -3rem;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
   }
 }

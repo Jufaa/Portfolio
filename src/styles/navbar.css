@@ -2,6 +2,8 @@
   display: none;
 }
 
+
+
 li {
   list-style: none;
   font-size: 1.2rem;
@@ -53,9 +55,13 @@ header {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .navbar .links {
     display: none;
+  }
+  .navbar .hidden{
+    display: none;
+  
   }
 .burger .active{
 position: fixed;
@@ -84,7 +90,7 @@ align-items: center;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .toggle-button {
     display: none;
   }
@@ -96,4 +102,5 @@ align-items: center;
   .burger {
     display: none;
   }
+
 }

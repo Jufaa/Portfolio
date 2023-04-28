@@ -94,3 +94,28 @@
     font-size: 1rem;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .cuadro {
+    flex-direction: column;
+    width: 50%;
+  }
+  
+  .pic {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  
+  .pic img {
+    height: auto;
+    max-height: 250px;
+  }
+  
+  .cuadro .text h2 {
+    font-size: 1.5rem;
+  }
+  
+  .cuadro .text h3 {
+    font-size: 1rem;
+  }
+}

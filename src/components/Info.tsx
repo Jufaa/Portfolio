@@ -2,7 +2,7 @@ import '../styles/info.css'
 const Info = () => {
   return (
   <>
-  <div className="cuadro">
+  <div className="cuadro" id='aboutme'>
     <div className="pic">
       <img src="/what.jpg"/>
     </div>

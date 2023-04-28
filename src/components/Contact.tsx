@@ -6,7 +6,7 @@ const Contact = () => {
   const [message, setMessage] = useState('');
   return (
     <>
-    <div>
+    <div id="contact">
       <form className="centrar" action="https://formsubmit.co/juanfrancitorra@gmail.com" method="POST">
         <div className="form-group">
     <h1>Contact</h1>
