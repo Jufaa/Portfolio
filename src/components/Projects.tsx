@@ -7,7 +7,7 @@ const Projects = () => {
       <div className="container-cardes">
 
 
-      <Card title={"pija"}  body={"hola"}/>
+      <Card title={"asd"}  body={"hola"}/>
       <Card/>
       <Card/>
       </div>
