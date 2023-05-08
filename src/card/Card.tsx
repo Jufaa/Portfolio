@@ -1,5 +1,14 @@
 import './card.css'
-const Card = ({title, img, body, enlace}) => {
+
+interface CardProps {
+    title: string;
+    body: string;
+    img: string;
+    enlace: string;
+
+}
+
+const Card = ({title, img, body, enlace} : CardProps) => {
   return (
     <div className='card-container'>
         <div className='image-container'>
