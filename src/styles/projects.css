@@ -1,5 +1,16 @@
-.container-cardes{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container-cardes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+    justify-items: center;
 }
+
+@media only screen and (max-width: 768px) {
+    .container-cardes {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    centrar {
+      text-align: left;
+      margin-left: 20px;
+    }
+  }
