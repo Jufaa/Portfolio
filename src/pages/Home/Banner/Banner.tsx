@@ -11,7 +11,7 @@ const Banner = () => {
           Soy un desarrolador web especializado en crear sitios webs awesomes!
         </h3>
         <a
-          href="https://drive.google.com/file/d/1s15yXaDMgZ8toQpAYH7AO873nRSESDgR/view?usp=sharing"
+          href="https://drive.google.com/file/d/1k56AaTFDCqpd-lPHZ6e155fxZyDm0a8R/view?usp=sharing"
           download
           className="as"
         >
