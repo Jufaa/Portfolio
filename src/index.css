@@ -6,7 +6,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
 code {
@@ -14,16 +13,15 @@ code {
     monospace;
 }
 
-
-.center{
+.center {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .App {
-  z-index: 1; 
-  
+  z-index: 1;
+
   flex-direction: column;
   align-items: center;
   justify-content: center;
