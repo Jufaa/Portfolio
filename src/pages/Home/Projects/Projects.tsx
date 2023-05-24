@@ -35,7 +35,7 @@ const Projects = () => {
           body={'Projecto creado con TypeScript y React! Falta agregar estilos'}
           img={'/project3.png'}
           git={'https://github.com/Jufaa/MemoTest'}
-          deploy={'https://app.netlify.com/sites/memotestsss/overview'}
+          deploy={'https://memotestsss.netlify.app/'}
         />
         <Card
           title={'Marvel Project'}
