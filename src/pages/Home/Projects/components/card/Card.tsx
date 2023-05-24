@@ -3,11 +3,12 @@ interface CardProps {
   title: string;
   body: string;
   img: string;
-  enlace: string;
+  git: string;
+  deploy: string;
 }
 
 // TODO: agregar enlace 2 para los deploys
-const Card = ({ title, img, body, enlace }: CardProps) => {
+const Card = ({ title, img, body, git, deploy }: CardProps) => {
   return (
     <div className="card-container">
       <div className="image-container">
@@ -22,10 +23,10 @@ const Card = ({ title, img, body, enlace }: CardProps) => {
         </div>
         <div className="btn">
           <button>
-            <a href={enlace}>Code</a>
+            <a href={git}>Code</a>
           </button>
           <button>
-            <a href={enlace}>Deploy</a>
+            <a href={deploy}>Deploy</a>
           </button>
         </div>
       </div>

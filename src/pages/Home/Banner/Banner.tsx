@@ -8,7 +8,7 @@ const Banner = () => {
         <h1 className="menos-gap">Juan Cruz Francitorra</h1>
         <h2>Construyo sitios web</h2>
         <h3>
-          Soy un desarrolador web especializado en crear sitios webs awesomes!
+          Soy un desarrolador web especializado en crear sitios webs increibles!
         </h3>
         <a
           href="https://drive.google.com/file/d/1k56AaTFDCqpd-lPHZ6e155fxZyDm0a8R/view?usp=sharing"

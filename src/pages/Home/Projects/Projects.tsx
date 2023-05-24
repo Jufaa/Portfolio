@@ -8,36 +8,41 @@ const Projects = () => {
         <Card
           title={'E-Commerce'}
           body={
-            'Projecto creado con typescript, contiene la funcionalidades basicas de un E-Comerce'
+            'Projecto creado con Typescript y React, contiene la funcionalidades basicas de un E-Comercce'
           }
           img={'/project1.png'}
-          enlace={
+          git={
             'https://github.com/Jufaa/E-Commerce-basic-with-React-and-TypeScript'
           }
+          deploy={'https://ecccomerbasic.netlify.app/'}
         />
         <Card
           title={'Search Pokemon'}
-          body={'Projecto creado con typescript'}
+          body={'Projecto creado con Typescript y React! Falta estilos'}
           img={'/pokemon.png'}
-          enlace={'https://github.com/Jufaa/Pokemon'}
+          git={'https://github.com/Jufaa/Pokemon'}
+          deploy={'https://pokemonsearchhh.netlify.app/'}
         />
         <Card
-          title={'Rock & EDM Festival'}
-          body={'Projecto creado con JavaScript y SASS'}
+          title={'Twitter UI'}
+          body={'Projecto creado con Typescript, React y ChakraUI'}
           img={'/project2.png'}
-          enlace={'https://rockyedmfestivall.netlify.app/'}
+          deploy={'https://twitter-ui-jufa.netlify.app/'}
+          git={''}
         />
         <Card
           title={'MemoTest'}
-          body={'Projecto creado con TypeScript '}
+          body={'Projecto creado con TypeScript y React! Falta agregar estilos'}
           img={'/project3.png'}
-          enlace={'https://github.com/Jufaa/MemoTest'}
+          git={'https://github.com/Jufaa/MemoTest'}
+          deploy={'https://app.netlify.com/sites/memotestsss/overview'}
         />
         <Card
           title={'Marvel Project'}
           body={'Projecto creado con React, React-Router-Dom y Boostrap'}
           img={'/project4.png'}
-          enlace={'https://github.com/Jufaa/SuperHeroes'}
+          git={'https://github.com/Jufaa/SuperHeroes'}
+          deploy={'https://sueprhero.netlify.app/marvel'}
         />
       </div>
     </div>
