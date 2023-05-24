@@ -7,7 +7,6 @@ interface CardProps {
   deploy: string;
 }
 
-// TODO: agregar enlace 2 para los deploys
 const Card = ({ title, img, body, git, deploy }: CardProps) => {
   return (
     <div className="card-container">

@@ -43,7 +43,6 @@
   color: white !important;
   opacity: 0.8;
 }
-/* Estilos para pantallas grandes */
 @media screen and (max-width: 968px) {
   .cuadro {
     flex-direction: column;
