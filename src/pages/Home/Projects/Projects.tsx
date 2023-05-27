@@ -28,7 +28,7 @@ const Projects = () => {
           body={'Projecto creado con Typescript, React y ChakraUI'}
           img={'/project2.png'}
           deploy={'https://twitter-ui-jufa.netlify.app/'}
-          git={''}
+          git={'https://github.com/Jufaa/Twitter-App-UI'}
         />
         <Card
           title={'MemoTest'}
