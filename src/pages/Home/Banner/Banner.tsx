@@ -4,10 +4,14 @@ const Banner = () => {
     <>
       <div className="container">
         <img className="keloke" src="/about-image.svg" alt="aboutimage" />
-        <p>Hi, my name is</p>
-        <h1 className="menos-gap">Juan Cruz Francitorra</h1>
-        <h2>I build websites</h2>
-        <h3>I am a web developer specialized in creating amazing websites!</h3>
+        <div className="contenedor">
+          <p>Hi, my name is</p>
+          <h1>Juan Cruz Francitorra</h1>
+          <h2>I build websites</h2>
+          <h3>
+            I am a web developer specialized in creating amazing websites!
+          </h3>
+        </div>
         <a
           href="https://drive.google.com/file/d/1k56AaTFDCqpd-lPHZ6e155fxZyDm0a8R/view?usp=sharing"
           download

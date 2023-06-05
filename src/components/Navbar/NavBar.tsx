@@ -1,40 +1,18 @@
 import BurguerButton from '../../hooks/BurgerButton';
+import { useInterval } from './hooks/useInterval';
 import './styles/navbar.css';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const NavBar = () => {
-  const [names] = useState(['Jufa-Developer', 'FullStack Developer']);
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [scrolled, setScrolled] = useState(false);
+  const { currentIndex, scrolled, names } = useInterval();
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setCurrentIndex((currentIndex) => (currentIndex + 1) % names.length);
-    }, 3000);
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      clearInterval(intervalId);
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [names]);
-
+  const [clicked, setClicked] = useState(false);
   const handleLinkClick = () => {
     setClicked(false);
   };
 
-  const [clicked, setClicked] = useState(false);
   const handleClick = () => {
     setClicked(!clicked);
-  };
-
-  const handleScroll = () => {
-    if (window.scrollY > 50) {
-      setScrolled(true);
-    } else {
-      setScrolled(false);
-    }
   };
 
   return (
