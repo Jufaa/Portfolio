@@ -7,15 +7,15 @@ const Info = () => {
           <img src="/what.jpg" />
         </div>
         <div className="text">
-          <h2>Acerca de mi</h2>
+          <h2>About me</h2>
           <h3>
-            ¡Hola! Me llamo Juan Cruz, soy un desarrollador web y actualmente
-            vivo en Cordoba, Argentina. Me apasiona crear soluciones innovadoras
-            y eficientes a través de la programación y el desarrollo web además
-            me encanta aprender y estoy siempre buscando nuevas formas de
-            mejorar mis habilidades y conocimientos. Si estás buscando un
-            desarrollador web apasionado y comprometido, ¡no dudes en
-            contactarme!
+            Hello! My name is Juan Cruz, I am a web developer and I currently
+            live in Cordoba, Argentina. I am passionate about creating
+            innovative and efficient solutions through programming and web
+            development. I also love to learn and am always looking for new ways
+            to improve my skills and knowledge. If you are looking for a
+            passionate and committed web developer, don't hesitate to contact
+            me!
           </h3>
         </div>
       </div>
