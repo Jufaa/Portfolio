@@ -7,13 +7,13 @@ const Footer = () => {
         <div className="linkes">
           <a
             href="https://www.linkedin.com/in/juanfrancitorra/"
-            id="linkedin"
             target="_blank"
+            title="Linkedin"
           >
-            <img src="icons/lk.svg" />
+            <img src="icons/lk.svg" alt="linkedin" />
           </a>
-          <a href="https://github.com/Jufaa" target="_blank" id="github">
-            <img src="icons/github.svg" />
+          <a href="https://github.com/Jufaa" target="_blank" title="GitHub">
+            <img src="icons/github.svg" alt="github" />
           </a>
         </div>
       </div>
