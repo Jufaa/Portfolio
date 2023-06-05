@@ -8,7 +8,7 @@ const Projects = () => {
         <Card
           title={'E-Commerce'}
           body={
-            'Projecto creado con Typescript y React, contiene la funcionalidades basicas de un E-Comercce'
+            'Project created with TypeScript and React, whose functions are basic to an E-Commerce'
           }
           img={'/project1.png'}
           git={
@@ -18,28 +18,28 @@ const Projects = () => {
         />
         <Card
           title={'Search Pokemon'}
-          body={'Projecto creado con Typescript y React! Falta estilos'}
+          body={'Project created with Typescript, CharakaUI and React'}
           img={'/pokemon.png'}
           git={'https://github.com/Jufaa/Pokemon'}
           deploy={'https://pokemonsearchhh.netlify.app/'}
         />
         <Card
           title={'Twitter UI'}
-          body={'Projecto creado con Typescript, React y ChakraUI'}
+          body={'Project created with Typescript, CharakaUI and React'}
           img={'/project2.png'}
           deploy={'https://twitter-ui-jufa.netlify.app/'}
           git={'https://github.com/Jufaa/Twitter-App-UI'}
         />
         <Card
-          title={'MemoTest'}
-          body={'Projecto creado con TypeScript y React! Falta agregar estilos'}
+          title={'Rick and Morty APP'}
+          body={'Project created with Typescript, CharakaUI and React'}
           img={'/project3.png'}
-          git={'https://github.com/Jufaa/MemoTest'}
-          deploy={'https://memotestsss.netlify.app/'}
+          git={'https://github.com/Jufaa/Ricky-Morty'}
+          deploy={'https://jufa-rickmortyapp.netlify.app/'}
         />
         <Card
           title={'Marvel Project'}
-          body={'Projecto creado con React, React-Router-Dom y Boostrap'}
+          body={'Project created with React, React-Router-Dom y Boostrap'}
           img={'/project4.png'}
           git={'https://github.com/Jufaa/SuperHeroes'}
           deploy={'https://sueprhero.netlify.app/marvel'}
