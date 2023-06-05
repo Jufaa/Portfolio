@@ -4,9 +4,7 @@
   padding: 5rem;
   margin-right: 50rem;
 }
-.container .menos-gap {
-  margin-left: -6rem;
-}
+
 h1,
 h2,
 h3 {
@@ -87,8 +85,9 @@ h3 {
     margin-right: 9rem;
     margin-left: 3rem;
   }
-  .container .menos-gap {
-    margin-left: 0;
+  .container .h1.menos-gap {
+    display: flex;
+    justify-content: flex-start;
   }
   .container .as {
     margin-top: 0.5rem;

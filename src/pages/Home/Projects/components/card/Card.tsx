@@ -11,7 +11,7 @@ const Card = ({ title, img, body, git, deploy }: CardProps) => {
   return (
     <div className="card-container">
       <div className="image-container">
-        <img src={img} alt="" />
+        <img src={img} alt={title} />
       </div>
       <div className="card-content">
         <div className="card-title">

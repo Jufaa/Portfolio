@@ -7,11 +7,12 @@ const Footer = () => {
         <div className="linkes">
           <a
             href="https://www.linkedin.com/in/juanfrancitorra/"
+            id="linkedin"
             target="_blank"
           >
             <img src="icons/lk.svg" />
           </a>
-          <a href="https://github.com/Jufaa" target="_blank">
+          <a href="https://github.com/Jufaa" target="_blank" id="github">
             <img src="icons/github.svg" />
           </a>
         </div>
