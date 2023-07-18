@@ -8,8 +8,8 @@ export const Languages = [
     img: 'icons/react.svg'
   },
   {
-    languaje: 'Javascript',
-    img: 'icons/javascript.svg'
+    languaje: 'NextJS',
+    img: 'icons/nextjs.svg'
   },
   {
     languaje: 'TypeScript',
